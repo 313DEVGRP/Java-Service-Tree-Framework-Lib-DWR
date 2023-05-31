@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="MZC01-DMLEE" name="org.directwebremoting.impl.SignatureParserTest" skipped="0" tests="3" time="0.163" timestamp="2023-05-31T06:02:23">
+  <properties>
+    <property name="ant.library.dir" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.4\lib\ant\lib" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="java.specification.version" value="11" />
+    <property name="ant.project.name" value="dwr" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="sun.jnu.encoding" value="MS949" />
+    <property name="dwr-maven-jdk14-jar" value="C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\dist/lib/dwr-3.1.3-RELEASE-jdk14.jar" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="target.root" value="./target/ant" />
+    <property name="java.vendor.url" value="https://www.microsoft.com" />
+    <property name="dwr-maven-sources-jar" value="C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\dist/lib/dwr-3.1.3-RELEASE-sources.jar" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-11.0.17.8-hotspot\bin" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner org.directwebremoting.impl.SignatureParserTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\junitReports\TEST-org.directwebremoting.impl.SignatureParserTest.xml formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter crashfile=C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\junitvmwatcher5853829860308239108.properties propsfile=C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\junit6409060983570848043.properties" />
+    <property name="jdk.debug" value="release" />
+    <property name="maven-repository-id" value="ossrh" />
+    <property name="module" value="core/impl" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2022-10-18" />
+    <property name="java.home" value="C:\Program Files\Microsoft\jdk-11.0.17.8-hotspot" />
+    <property name="version" value="3.1.3-RELEASE" />
+    <property name="file.separator" value="\" />
+    <property name="basedir" value="C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="ant.file.type.dwr" value="file" />
+    <property name="bamboo.build.number" value="" />
+    <property name="testdwr.home" value="C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE/../testdwr" />
+    <property name="tomcat.username" value="admin" />
+    <property name="user.script" value="" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="java.runtime.version" value="11.0.17+8-LTS" />
+    <property name="user.name" value="MZC01-DMLEE" />
+    <property name="file.encoding" value="MS949" />
+    <property name="tomcat.manager.url" value="http://localhost:8080/manager" />
+    <property name="java.vendor.version" value="Microsoft-6841889" />
+    <property name="dwr-maven-jar" value="C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\dist/lib/dwr-3.1.3-RELEASE.jar" />
+    <property name="tomcat.context" value="/dwr" />
+    <property name="java.io.tmpdir" value="C:\Users\MZC01-~1\AppData\Local\Temp\" />
+    <property name="java.version" value="11.0.17" />
+    <property name="dwr-maven-noncla-jar" value="C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\dist/lib/dwr-3.1.3-RELEASE-noncla.jar" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="ant.home" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.4\lib\ant" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="java.library.path" value="C:\Program Files\Microsoft\jdk-11.0.17.8-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Microsoft\jdk-17.0.6.10-hotspot\bin;C:\Program Files\Microsoft\jdk-11.0.17.8-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Bandizip\;C:\Program Files\nodejs\;C:\Program Files (x86)\NetSarang\Xshell 7\;C:\Program Files\dotnet\;C:\Users\MZC01-DMLEE\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.4\bin;;C:\Users\MZC01-DMLEE\AppData\Roaming\npm;." />
+    <property name="java.vendor" value="Microsoft" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.desktop" value="windows" />
+    <property name="ant.file.type" value="file" />
+    <property name="minor" value="0" />
+    <property name="groupId" value="org.directwebremoting" />
+    <property name="dist" value="C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\dist" />
+    <property name="java.class.path" value="C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\annotations-api.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\aopalliance-1.0.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\asm-attrs.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\asm.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\bsf-2.4.0.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\cglib-2.1.3.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\commons-collections-2.1.1.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\commons-fileupload-1.2.1.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\commons-io-1.4.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\commons-logging-1.1.1.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\dom4j-1.6.1.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\easymock-2.3.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\guice-1.0.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\guice-servlet-1.0.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\hibernate-2.1.7c.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\hibernate-3.2.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\hibernate-entitymanager-3.2.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\hsqldb-2.3.2.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\iText-2.1.2u.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\javax.jms-1.1.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\javax.servlet-api-3.0.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\jdom-1.1.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\jetty-continuation-7.0.1.v20091125.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\jetty-http-7.0.1.v20091125.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\jetty-io-7.0.1.v20091125.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\jetty-server-7.0.1.v20091125.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\jetty-servlet-7.0.1.v20091125.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\jetty-util-7.0.1.v20091125.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\jetty-webapp-7.0.1.v20091125.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\jms-1.1.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\joda-time-1.6.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\js.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\jsp-api-2.0.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\jta.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\junit-4.4.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\junit-addons-1.4.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\shrinksafe.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\spring-aop-3.2.14.RELEASE.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\spring-beans-3.2.14.RELEASE.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\spring-context-3.2.14.RELEASE.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\spring-core-3.2.14.RELEASE.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\spring-mock.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\spring-web-3.2.14.RELEASE.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\spring-webmvc-3.2.14.RELEASE.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\struts-1.1.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\webwork-2.2.2.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\xbean-2.2.0.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\xom-1.1.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\lib\xwork-1.1.1.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\classes\demo;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\classes\main;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\target\ant\classes\test;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\ui\dwr\demo\web\WEB-INF\lib\commons-fileupload-1.2.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\ui\dwr\demo\web\WEB-INF\lib\commons-io-1.3.1.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\ui\dwr\demo\web\WEB-INF\lib\commons-logging-1.0.4.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\ui\dwr\demo\web\WEB-INF\lib\itext-2.0.6.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\ui\dwr\demo\web\WEB-INF\lib\jakarta-oro-2.0.8.jar;C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\ui\dwr\demo\web\WEB-INF\lib\log4j-1.2.12.jar;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.4\lib\ant\lib\ant.jar" />
+    <property name="java.vm.vendor" value="Microsoft" />
+    <property name="user.variant" value="" />
+    <property name="source.root" value="." />
+    <property name="major" value="3" />
+    <property name="user.timezone" value="" />
+    <property name="os.name" value="Windows 11" />
+    <property name="java.vm.specification.version" value="11" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="KR" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="C:\Users\MZC01-DMLEE" />
+    <property name="user.language" value="ko" />
+    <property name="maven-snapshots-repository-url" value="https://oss.sonatype.org/content/repositories/snapshots/" />
+    <property name="modules" value="   core/api, core/impl, core/legacy,   protocol/dwrp, protocol/json,   serverside/spring, serverside/guice, serverside/struts, serverside/hibernate, serverside/webwork, serverside/various,   ui/dwr   " />
+    <property name="revision" value="2" />
+    <property name="ant.java.version" value="11" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="ant.file.dwr" value="C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\build.xml" />
+    <property name="ant.file" value="C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\build.xml" />
+    <property name="title" value="FINAL" />
+    <property name="path.separator" value=";" />
+    <property name="os.version" value="10.0" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="tomcat.home" value="/Applications/Java/apache-tomcat-6.0.14/" />
+    <property name="tomcat.password" value="admin" />
+    <property name="dwr-maven-javadoc-jar" value="C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE\dist/lib/dwr-3.1.3-RELEASE-javadoc.jar" />
+    <property name="ant.project.invoked-targets" value="run-tests-for-module" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="artifactId" value="dwr" />
+    <property name="ant.core.lib" value="C:\Program Files\JetBrains\IntelliJ IDEA 2022.2.4\lib\ant\lib\ant.jar" />
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues" />
+    <property name="target.war" value="./target/ant/war" />
+    <property name="user.dir" value="C:\dwr-3.0.2-RELEASE\dwr-3.0.2-RELEASE" />
+    <property name="os.arch" value="amd64" />
+    <property name="label" value="3.0.2.FINAL" />
+    <property name="target" value="./target/ant" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.vm.version" value="11.0.17+8-LTS" />
+    <property name="maven-staging-repository-url" value="https://oss.sonatype.org/service/local/staging/deploy/maven2/" />
+    <property name="java.class.version" value="55.0" />
+    <property name="ant.project.default-target" value="package" />
+  </properties>
+  <testcase classname="org.directwebremoting.impl.SignatureParserTest" name="testParseEmptyString" time="0.051" />
+  <testcase classname="org.directwebremoting.impl.SignatureParserTest" name="testParse1" time="0.024" />
+  <testcase classname="org.directwebremoting.impl.SignatureParserTest" name="parse2" time="0.009" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
