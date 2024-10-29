@@ -12,7 +12,3 @@ tomcat의 서블릿을 활용하여, 동작하는 방식으로
 관련한 문의는 313cokr@gmail.com 으로 주세요
 
 원본 레파지토리 : https://github.com/directwebremoting
-
-참여하신 개발자 분들.
-
-Dongmin.lee , Mingyu.lee , Junho.hong , Jiyoon.jang, Dongjun.shin , Seonghun.hong
